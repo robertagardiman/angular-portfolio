@@ -24,7 +24,6 @@ src/
     │   │   │
     │   │   ├── portfolio-home.component
     │   │   ├── portfolio-home.controller
-    │   │   ├── portfolio-home.scss
     │   │   └── portfolio-home.template
     │   │
     │   ├── portfolio-detail/
