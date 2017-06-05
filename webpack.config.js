@@ -6,7 +6,7 @@ const mainScss = new ExtractTextPlugin({filename: 'style.bundle.css', allChunks:
 
 
 module.exports = {
-  entry: './src/app/app.module.js',
+  entry: './src/app/app.bootstrap.js',
   output: {
     filename: 'app.bundle.js',
     path: path.resolve(__dirname, 'dist')
