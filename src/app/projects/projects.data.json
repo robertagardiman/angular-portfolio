@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Osteria Francescana",
+        "subject": "Digital Art Direction",
+        "subtitle": " Creation of a Digital Experience for the 3 Michelin stars restaurant Osteria Francescana. The aim is to differenciate the restaurant Experience with a Digital one that has to be worth feeling as the restaurant.",
+        "concept-description": "For this porpouse I choose to show in Digital what clients in restaurant rarely can feel, the history of each creation, genially crafted by chef Massimo Bottura using colours, concepts and sinphonies to convey a work of art.",
+        "description": "That’s why I basically created an art Gallery, which exploites the digital media to convey a feeling or emotions to User that creates a bond with dishes even before or without tasting them for real. It’s a sort of non conventional online menu which as ingredients has the phylosophy of the autor that animates sorrounded by a combined symphony that changes from dish to dish, as Massimo Bottura is used to do.",
+        "description_1":"",
+        "description_2":"",
+        "description_3":""
+    },
+    {
+        "title": "Samsung Iop",
+        "subject": "Service Design",
+        "subtitle": "  Creation of a digital experience for Samsung. The brand's goal was to create and design a more personal relationship between Samsung and its customers.",
+        "concept-description": " After a deep analysis of the brand the concept is Internet Of People (IOP), an APP sponsored by Samsung. IOP means a way to create a community of users sharing their personal experiences and their emotions while interacting with Samsung.",
+        "description": "That’s why I basically created an art Gallery, which exploites the digital media to convey a feeling or emotions to User that creates a bond with dishes even before or without tasting them for real. It’s a sort of non conventional online menu which as ingredients has the phylosophy of the autor that animates sorrounded by a combined symphony that changes from dish to dish, as Massimo Bottura is used to do.",
+        "description_1":"After the Login the device becomes a personal filter to navigate Samsung universe, for this reason the user is invited to daily select his personal feeling between five emotional moods that will influence the way contents are displayed in the app. At this point the user is part of a community that, in the first section, shares the pure emotions related to experiences and events promoted by Samsung IOP staff.",
+        "description_2":"The core section of IOP App focuses on the experiences and reactions that users have while using Samsung products in their everyday life. These are a new and effective kind of reviews that give a clear feedback about products in a more personal way using also photos and videos and overcoming the banal description of the specs that people can find everywhere. As the user approach the store, a beacon triggers IOP app to open camera and, with augmented reality, let him see the every product in the color of the selected mood. At this moment, the customer can point a specific product and feel all the related experiences of the Products section of IOP App about it.",
+        "description_3":"The third section focuses on the events that IOP selects (in different cities) and than proposes to users based on the mood they selected at the beginning. This section has the power to create a net of contacts and real interactions between people of IOP, inviting them to live some experience where they have the possibility to try for real Samsung products and, building a solid relation with the brand, be invited to fill the Pure and Product sections with the experiences that the Event section proposes."
+    },
+    {
+        "title": "Nike for Rio 2016",
+        "subject": "Integrated Communication",
+        "subtitle": "Creation of an advertising campaign for Nike at Olympic Games of Rio 2016.",
+        "concept-description": "After a deep research about Nike’s values and about the city of Rio, it turned out an intresting comparison between the sport attitude of athlets and the change in behavior of Rio de Janeiro in the last years towards a better situation. Based on these findings it has been evolved the idea that anything can change with effort, perseverance and motivation just making the first step to our goal.",
+        "description": "From this concept it started the #onestepcloser campaign of Nike, inviting people to be perseverant and improve their lives like Rio did with simple lifestyle goals to accomplish during olympic games such as: use less the phone, use less the car or visit frequently a specific place. To do this Nike launches a worldwide app that lets users set their goals and track their progresses. This app will be the core of a huge campaign that wants to give the impression that Nike owns the world during Olympic Games’ period.",
+        "description_1":"This impression is achieved by using a lot of communication touchpoints around cities that will introduce the concept and bring users to download the app. The first event that opens tha campaign and launches the app is a big marathon worldwide, a race against oneself that will be also the closing event of the campaign wich will reward those who beat their first race-time. After the marathon there will be active a series of interactive and static touchpoints around the most important cities of the world.",
+        "description_2":"",
+        "description_3":""
+    }
+]

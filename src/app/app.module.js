@@ -6,6 +6,7 @@ import appComponent from './app.component';
 import homeComponent from './home/home.component';
 import aboutComponent from './about/about.component';
 import projectsComponent from './projects/projects.component';
+import ProjectsService from './projects/projects.service';
 
 export default angular
   .module('App', ['ui.router'])
@@ -13,6 +14,7 @@ export default angular
   .component('home', homeComponent)
   .component('about', aboutComponent)
   .component('projects', projectsComponent)
+  .factory('ProjectsService', ProjectsService)
   .config(function($stateProvider, $urlRouterProvider){
     routes.forEach(function(route){
       $stateProvider.state(route.state, route.config);

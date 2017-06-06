@@ -1,5 +1,5 @@
 export default class AppController {
   constructor(){
-    console.log('sono il controller');
+    console.log('sono il controller della app');
   }
 }
