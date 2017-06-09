@@ -12,7 +12,7 @@ export default class ProjectsController {
   }
 
   getClickedProj(item){
-    this.projectsService.setActiveProject(item);
-    this.state.go('Detail', {id: item.id}) //per reindirizzare alla rotta desiderata
+    this.projectsService.setActiveProject(item); //funz che richiamo nel servizio per salvare l'elemento cliccato
+    this.state.go('Detail', {id: item.id}) //metodo '.go'per reindirizzare alla rotta desiderata
   }
 }

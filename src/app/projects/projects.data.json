@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Luceplan Website",
+        "place": "Qwentes Srl",
         "year": 2016,
         "subject": "Ux Design/Development",
         "subtitle": " UX Design, SEO and Development of Luceplan.com website",
@@ -16,6 +17,7 @@
     {
         "id": 2,
         "title": "Osteria Francescana",
+        "place": "SPD Milano",
         "year": 2016,
         "subject": "Digital Art Direction",
         "subtitle": " Creation of a Digital Experience for the 3 Michelin stars restaurant Osteria Francescana. The aim is to differenciate the restaurant Experience with a Digital one that has to be worth feeling as the restaurant.",
@@ -30,6 +32,7 @@
     {
         "id": 3,
         "title": "Samsung Iop",
+        "place": "SPD Milano",
         "year": 2016,
         "subject": "Service Design",
         "subtitle": "  Creation of a digital experience for Samsung. The brand's goal was to create and design a more personal relationship between Samsung and its customers.",
@@ -44,6 +47,7 @@
     {
         "id": 4,
         "title": "Nike for Rio 2016",
+        "place": "SPD Milano",
         "year": 2016,
         "subject": "Integrated Communication",
         "subtitle": "Creation of an advertising campaign for Nike at Olympic Games of Rio 2016.",
@@ -51,6 +55,76 @@
         "concept-description": "After a deep research about Nike’s values and about the city of Rio, it turned out an intresting comparison between the sport attitude of athlets and the change in behavior of Rio de Janeiro in the last years towards a better situation. Based on these findings it has been evolved the idea that anything can change with effort, perseverance and motivation just making the first step to our goal.",
         "description": "From this concept it started the #onestepcloser campaign of Nike, inviting people to be perseverant and improve their lives like Rio did with simple lifestyle goals to accomplish during olympic games such as: use less the phone, use less the car or visit frequently a specific place. To do this Nike launches a worldwide app that lets users set their goals and track their progresses. This app will be the core of a huge campaign that wants to give the impression that Nike owns the world during Olympic Games’ period.",
         "description_1":"This impression is achieved by using a lot of communication touchpoints around cities that will introduce the concept and bring users to download the app. The first event that opens tha campaign and launches the app is a big marathon worldwide, a race against oneself that will be also the closing event of the campaign wich will reward those who beat their first race-time. After the marathon there will be active a series of interactive and static touchpoints around the most important cities of the world.",
+        "description_2":"",
+        "description_3":""
+    },
+    {
+        "id": 5,
+        "title": "RayBan US",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Ux Design",
+        "subtitle": "Creation of a new responsive website for Ray-Ban USA, with a strong focus on Design and User Experience.",
+        "concept": "Concept",
+        "concept-description": "The Project started with a deep analisys of the brand, followed by the creation of personas and wireframes. The aim was to find a creative way to build the ecommerce reflecting Ray-Ban’s personality without losing the UX aspect.",
+        "description": "For this purpose the first step has been focused on cleaning the interface, proceed to the simplification of the structure of the whole purchasing system and then designing interactions that help the user to navigate. The last step has been analyzing RayBan services and introduce shoppable experiences as the one in the home-page and new services such as the comparison between models to offer a better service to customers.",
+        "description_1":"The SEO strategy focused more on increasing user traffic in the eyeglasses section. After a deep SEO Audit some elements must be improved such as: the URL structure ( also titles as a consequence ); the navigation and the secondary menu arrangement. To reinforce internal linking and the user traffic there were introduced more call to actions linking to specific pages inside the most visited ones, and also some short descriptions with relevant keywords inside as a compromise between clean UI design and SEO. Based on these findings after the creation of the new tree structure the last step of the project has been producing detailed wireframes.",
+        "description_2":"The SEM strategy focused on increase sales by bringing more people to the site, with special attention to customized products. The aim is to create appealing campaigns that could engage our target.",
+        "description_3":"In order to push the customized glasses sales we are planning to create a techinicolor week. Every day of the week will have a specific color promoted, the user should add that color in his customized product in order to get the discount on the final result. This campaign can be used for the holiday season but can be also adapted in order to set “RayBan culture” in a period of the year."
+    },
+    {
+        "id": 6,
+        "title": "Incontro Bottega Veneta",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Digital Art Direction",
+        "subtitle": "Creation of a personal website for Bottega Veneta customers coexistent with the main one.",
+        "concept": "Concept",
+        "concept-description": "After a deep analysis of the brand it turned out that the uniqueness of Bottega Veneta is the intimate relation with all its customer. The aim of the project is to weave digital and human touch together to offer advanced services in the form of a personal relationship between brand and customers that grows in depth with time as human relations do.",
+        "description": "Every relation starts personally with a first “incontro” that will evolve following the typical steps of a real human bond. The concept consists in a relation between the customer and a dedicated sales assistant from Bottega Veneta. The experience begins in boutique with the client's signature and takes over the first time the user receives the coordinates to enter his personal website at home where the logo of the brand is replaced with the user’s name.",
+        "description_1":"To welcome the customer there will be the photo of the sales assistant he met in store giving all the contacts he needs in any moment, and reasuming the visit they did and the product the user liked.",
+        "description_2":"It is a fluid and modular system of milestones services that the sales assistant can give to users based on the depth of their relation. In this way every bond is different and the sales assistant can decide at which point to proceed with deeper personal services.",
+        "description_3":"After the first purchase the customers would be given the “Key” of the shop, That would help recognise them all over the world as they enter the boutiques and treat them with the same importance."
+    },
+    {
+        "id": 7,
+        "title": "Leaf Lamp",
+        "place": "Politecnico di Milano",
+        "year": 2014,
+        "subject": "Product Design",
+        "subtitle": "Leaf is a lamp for Artemide inspired by Frida Isola, an original lounge bar of Milan.",
+        "concept": "Concept",
+        "concept-description": "Its use is a sort of game for the clients of the bar, who will bring it to the table to light it up during their permanence at the bar; creating, all together, a wonderful game of soft lights atmosphere, typical of Frida Isola at night.Leaf is developed in partnership with Artemide and respects the main qualities of its products: elegance, linearity and environmental sustainability. Once rolled and fixed the lampshade up, using the special clips inside the packaging, it will be enough to place it on its basis pressing an easy mechanical joint.",
+        "description": "",
+        "description_1":"",
+        "description_2":"",
+        "description_3":""
+    },
+    {
+        "id": 8,
+        "title": "ATM Milano Webapp",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Ux Design",
+        "subtitle": "Creation of a new responsive webapp For atm Milano, including new Services with a strong focus on User Experience.",
+        "concept": "Concept",
+        "concept-description": "The Project started with a deep analisys on ATM vending machines that begun with interviews, the creation of personas and also from their inputs the aim of the Project was to simplify the structure of the whole purchasing system. The last step has been evolving the project into a responsive webapp usign the features of desktop and mobile phones in particular ( such as camera and geolocalisation ) to offer a better service For People.",
+        "description": "The map tool is always visible to prevent errors. It suggests the way for you to reach any place, speeding up the ticket purchase. The search bar helps increasing the efficiency of the service. It also give the possibility to save the ticket and use it when it is necessary. Finally the Login comes after the map tool to allow to use the webapp also just for quick infos, giving immediate feedback to the user.",
+        "description_1":"The template is fixed to focus the user and rassure him without scrolling. There are no differences between city areas and it's added the possibility to save the ticket for later usage.",
+        "description_2":"Researches done in the Milan Area pointed out that the majority of people search for €1,50 ticket. For this reason it has been introduced a new function that, saving clicks, allows users to purchase the urban ticket very fast from the main menu of the app. Since this is a new feature and people have to get used to it, the app has a brief description next to the call to action to prevent any error.",
+        "description_3":"This particular funtion represented a problem for mobile users that have to fill in a crowded form, to make it easier, exploiting the features of a common smartphone, it has been introduced the possibility to scan card's data with the camera; this is a way, together with inline validation, to prevent errors. Another problem occurred while choosing between a list of contracts that in the mobile was too crowded to tap the one that suites for the users' needs. For this reason it has been added a shortcut to recharge the last contract the user did (which is quite often the choice he selects), giving him a clear resume and the possibility to find a totem where he can activate the card."
+    },
+    {
+        "id": 9,
+        "title": "Flora Web Magazine",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Digital Typography",
+        "subtitle": "Creation of a typographic magazine with a strong focus on graphic design, typography in particular.",
+        "concept": "Concept",
+        "concept-description": "The Project's aim is to create an elegant, fresh and girly magazine for IPad. I was given a word - Flora - to work on in order to end with: a typographic logo, a cover page, and a text format consistent with the brief. To give an elegant and feminine look and feel to the magazine.",
+        "description": "A closer look on the Flora's logo.",
+        "description_1":"Below Flora Magazine's final output within the design of the cover page.",
         "description_2":"",
         "description_3":""
     }

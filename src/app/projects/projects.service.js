@@ -13,7 +13,7 @@ export default class ProjectsService{
 
 
 		setActiveProject(item) {
-			this.activeProject = item;
+			this.activeProject = item; //salvo in un item l'elemento cliccato che proviene dal controller della lista
 		}
 
 }
