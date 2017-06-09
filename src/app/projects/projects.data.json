@@ -1,8 +1,26 @@
 [
     {
+        "id": 1,
+        "title": "Luceplan Website",
+        "year": 2016,
+        "subject": "Ux Design/Development",
+        "subtitle": " UX Design, SEO and Development of Luceplan.com website",
+        "link": "https://www.luceplan.com",
+        "concept": "Concept",
+        "concept-description": "Luceplan asked to redesign their website with a new and contemporary look. The project had to be ready for the “Salone del Mobile 2017”, where Luceplan was one of the main brands of “Euroluce”, international exhibition of light and lamp design.",
+        "description": "The peculiarity of this project was the CMS used: Statamic is a “Flat CMS”, based on files and not in DB. Is dynamic, but can behave as a static website, using a sophisticated method of caching, to make the app become faster (performing).",
+        "description_1":"The project started from the organisation of the contents, grouping them in macro areas, building the real website structure. From here we develop the UX.",
+        "description_2":"Following the guidelines given from CCRZ, a Swiss graphic design studio, we built the site with a fresher and cleaner look and feel, very photographic style, using beautiful photos of Luceplan products.",
+        "description_3":"Finally we implemented the SEO strategy and analytics, to optimise the website in Google ranks."
+    },
+    {
+        "id": 2,
         "title": "Osteria Francescana",
+        "year": 2016,
         "subject": "Digital Art Direction",
         "subtitle": " Creation of a Digital Experience for the 3 Michelin stars restaurant Osteria Francescana. The aim is to differenciate the restaurant Experience with a Digital one that has to be worth feeling as the restaurant.",
+        "link": "",
+        "concept": "Concept",
         "concept-description": "For this porpouse I choose to show in Digital what clients in restaurant rarely can feel, the history of each creation, genially crafted by chef Massimo Bottura using colours, concepts and sinphonies to convey a work of art.",
         "description": "That’s why I basically created an art Gallery, which exploites the digital media to convey a feeling or emotions to User that creates a bond with dishes even before or without tasting them for real. It’s a sort of non conventional online menu which as ingredients has the phylosophy of the autor that animates sorrounded by a combined symphony that changes from dish to dish, as Massimo Bottura is used to do.",
         "description_1":"",
@@ -10,9 +28,13 @@
         "description_3":""
     },
     {
+        "id": 3,
         "title": "Samsung Iop",
+        "year": 2016,
         "subject": "Service Design",
         "subtitle": "  Creation of a digital experience for Samsung. The brand's goal was to create and design a more personal relationship between Samsung and its customers.",
+        "link": "",
+        "concept": "Concept",
         "concept-description": " After a deep analysis of the brand the concept is Internet Of People (IOP), an APP sponsored by Samsung. IOP means a way to create a community of users sharing their personal experiences and their emotions while interacting with Samsung.",
         "description": "That’s why I basically created an art Gallery, which exploites the digital media to convey a feeling or emotions to User that creates a bond with dishes even before or without tasting them for real. It’s a sort of non conventional online menu which as ingredients has the phylosophy of the autor that animates sorrounded by a combined symphony that changes from dish to dish, as Massimo Bottura is used to do.",
         "description_1":"After the Login the device becomes a personal filter to navigate Samsung universe, for this reason the user is invited to daily select his personal feeling between five emotional moods that will influence the way contents are displayed in the app. At this point the user is part of a community that, in the first section, shares the pure emotions related to experiences and events promoted by Samsung IOP staff.",
@@ -20,9 +42,12 @@
         "description_3":"The third section focuses on the events that IOP selects (in different cities) and than proposes to users based on the mood they selected at the beginning. This section has the power to create a net of contacts and real interactions between people of IOP, inviting them to live some experience where they have the possibility to try for real Samsung products and, building a solid relation with the brand, be invited to fill the Pure and Product sections with the experiences that the Event section proposes."
     },
     {
+        "id": 4,
         "title": "Nike for Rio 2016",
+        "year": 2016,
         "subject": "Integrated Communication",
         "subtitle": "Creation of an advertising campaign for Nike at Olympic Games of Rio 2016.",
+        "concept": "Concept",
         "concept-description": "After a deep research about Nike’s values and about the city of Rio, it turned out an intresting comparison between the sport attitude of athlets and the change in behavior of Rio de Janeiro in the last years towards a better situation. Based on these findings it has been evolved the idea that anything can change with effort, perseverance and motivation just making the first step to our goal.",
         "description": "From this concept it started the #onestepcloser campaign of Nike, inviting people to be perseverant and improve their lives like Rio did with simple lifestyle goals to accomplish during olympic games such as: use less the phone, use less the car or visit frequently a specific place. To do this Nike launches a worldwide app that lets users set their goals and track their progresses. This app will be the core of a huge campaign that wants to give the impression that Nike owns the world during Olympic Games’ period.",
         "description_1":"This impression is achieved by using a lot of communication touchpoints around cities that will introduce the concept and bring users to download the app. The first event that opens tha campaign and launches the app is a big marathon worldwide, a race against oneself that will be also the closing event of the campaign wich will reward those who beat their first race-time. After the marathon there will be active a series of interactive and static touchpoints around the most important cities of the world.",

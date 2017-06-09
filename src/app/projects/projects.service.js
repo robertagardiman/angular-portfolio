@@ -2,8 +2,7 @@
 export default class ProjectsService{
 		constructor($http, ProjectsModel){
 			this.http = $http;
-			this.ProjectsModel = ProjectsModel;
-			console.log(this.ProjectsModel);
+			//this.ProjectsModel = ProjectsModel;
 		}
 
 		getProjects() {
@@ -11,4 +10,10 @@ export default class ProjectsService{
 				return response.data;
 			});
 		}
+
+
+		setActiveProject(item) {
+			this.activeProject = item;
+		}
+
 }

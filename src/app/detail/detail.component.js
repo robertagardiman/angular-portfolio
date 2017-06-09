@@ -4,7 +4,7 @@ import controller from './detail.controller';
 export default {
   template,
   controller,
-  bindings: {
-		itemDetail: '<'
-	}
+  // bindings: {
+	// 	itemDetail: '<'
+	// }
 }

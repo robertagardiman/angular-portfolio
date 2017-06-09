@@ -4,6 +4,6 @@
     <item
       ng-repeat = "item in $ctrl.projects"
       item = "item"
-      ui-sref = "Detail({title:item.title})">
+      ng-click="$ctrl.getClickedProj(item)">
     </item>
 </ul>
