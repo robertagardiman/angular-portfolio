@@ -1,1 +1,9 @@
 <h1>progettini</h1>
+
+<ul>
+    <item
+      ng-repeat = "item in $ctrl.projects"
+      item = "item"
+      ui-sref = "Detail({title:item.title})">
+    </item>
+</ul>

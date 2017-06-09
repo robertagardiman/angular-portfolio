@@ -6,7 +6,10 @@ import appComponent from './app.component';
 import homeComponent from './home/home.component';
 import aboutComponent from './about/about.component';
 import projectsComponent from './projects/projects.component';
+import itemComponent from './project-item/item.component';
+import detailComponent from './detail/detail.component';
 import ProjectsService from './projects/projects.service';
+import ProjectsModel from './projects/projects.model';
 
 export default angular
   .module('App', ['ui.router'])
@@ -14,6 +17,8 @@ export default angular
   .component('home', homeComponent)
   .component('about', aboutComponent)
   .component('projects', projectsComponent)
+  .component('item', itemComponent)
+  .component('detail', detailComponent)
   .factory('ProjectsService', ProjectsService)
   .config(function($stateProvider, $urlRouterProvider){
     routes.forEach(function(route){
@@ -21,4 +26,5 @@ export default angular
       $urlRouterProvider.otherwise('/home');
     })
   })
+  .value('ProjectsModel', ProjectsModel)
   .name;

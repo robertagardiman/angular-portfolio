@@ -5,8 +5,8 @@ export default class ProjectsController {
   }
 
   $onInit(){
-    this.projectsService.getProjects().then(function(data){
-  		console.log(data);
+    this.projectsService.getProjects().then((data) =>{
+      this.projects = data;
   	});
   }
 

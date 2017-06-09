@@ -20,4 +20,11 @@ export default [
       template: '<about></about>'
     }
   },
+  {
+    state: 'Detail',
+    config: {
+      url: '/detail/:title',
+      template: '<detail></detail>'
+    }
+  },
 ]
