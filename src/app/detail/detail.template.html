@@ -1,1 +1,33 @@
-<h1>{{ $ctrl.item.title }}</h1>
+<section class="product-detail">
+  <article>
+    <h1>{{ $ctrl.item.title }}</h1>
+    <p>{{ $ctrl.item.subtitle }}</p>
+    <a href="{{ $ctrl.item.link }}" target="_blank">link</a>
+  </article>
+  <article>
+    <img ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
+    <div class="text-block">
+      <h3>{{ $ctrl.item.concept }}</h3>
+      <p>{{ $ctrl.item.concept_description }}</p>
+    </div>
+    <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
+    <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+    <div class="text-block">
+      <p>{{ $ctrl.item.description }}</p>
+    </div>
+    <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
+    <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+    <div class="text-block">
+      <p>{{ $ctrl.item.description_1 }}</p>
+      <p>{{ $ctrl.item.description_2 }}</p>
+    </div>
+    <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+    <div class="text-block">
+      <p>{{ $ctrl.item.description_3 }}</p>
+    </div>
+  </article>
+  <article>
+    <div ng-click="$ctrl.prev()">Prev</div>
+    <div ng-click="$ctrl.next(item)">Next</div>
+  </article>
+</section>
