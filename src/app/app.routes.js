@@ -23,7 +23,7 @@ export default [
   {
     state: 'Detail',
     config: {
-      url: '/detail/:id',
+      url: '/detail/:slug',
       template: '<detail></detail>'
     }
   },

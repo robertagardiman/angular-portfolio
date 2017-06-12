@@ -1,19 +1,15 @@
-/* @ngInject */
-export default class ProjectsService{
-		constructor($http, ProjectsModel){
+export default class ProjectsService {
+		/* @ngInject */
+		constructor($http){
 			this.http = $http;
-			//this.ProjectsModel = ProjectsModel;
+      console.log('sono il servizio');
 		}
 
 		getProjects() {
-			return this.http.get('/src/app/projects/projects.data.json').then(function(response){
-				return response.data;
-			});
+			return this.http.get('/src/app/projects/projects.data.json').then(res => res.data);
 		}
-
 
 		setActiveProject(item) {
 			this.activeProject = item; //salvo in un item l'elemento cliccato che proviene dal controller della lista
 		}
-
 }

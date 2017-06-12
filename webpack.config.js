@@ -22,6 +22,13 @@ module.exports = {
         fallback: 'style-loader',
         use: ['css-loader?url=false', 'postcss-loader', 'sass-loader']
       })
+    },
+    {
+      test: /\.js$/,
+      use: [
+        {loader: 'ng-annotate-loader?single_quotes'},
+        {loader: 'babel-loader'}
+      ]
     }
   ]},
   plugins: [
