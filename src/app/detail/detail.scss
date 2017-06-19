@@ -16,6 +16,7 @@ detail {
     h1 {
       margin-bottom: 30px;
     }
+
     .divider {
       margin: 0;
       margin-bottom: 30px;
@@ -27,7 +28,14 @@ detail {
   }
   .detail-content {
     position: relative;
-    top: 75vh;
+    margin-top: 75vh;
     background-color: rgba(255, 255, 255, 0.9);
+
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+  .detail-nav {
+    position: relative;
   }
 }
