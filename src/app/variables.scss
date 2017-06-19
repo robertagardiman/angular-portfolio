@@ -1,11 +1,24 @@
 * {
   font-family: 'Helvetica Neue', sans-serif;
+  color: #444444;
 }
 
 // COLORS
 $light-blue: #C4ECEA;
 $dark-grey: #444444;
 
+h1 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
 
 a {
   color: #444444;

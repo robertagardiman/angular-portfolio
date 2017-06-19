@@ -12,6 +12,9 @@ header {
   .logo {
     grid-column-start: 1;
     grid-column-end: 2;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .nav {
     grid-column-start: 2;

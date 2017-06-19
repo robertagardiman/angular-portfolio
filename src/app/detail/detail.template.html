@@ -1,10 +1,11 @@
 <section class="product-detail">
-  <article>
+  <article class="detail-intro">
     <h1>{{ $ctrl.item.title }}</h1>
+    <img class="divider" ng-src="/assets/divider.svg" alt="">
     <p>{{ $ctrl.item.subtitle }}</p>
-    <a href="{{ $ctrl.item.link }}" target="_blank">link</a>
+    <a ng-if="$ctrl.item.link" href="{{ $ctrl.item.link }}" target="_blank">{{ $ctrl.item.link }}</a>
   </article>
-  <article>
+  <article class="detail-content">
     <img ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
     <div class="text-block">
       <h3>{{ $ctrl.item.concept }}</h3>
