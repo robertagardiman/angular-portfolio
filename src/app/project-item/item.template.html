@@ -1,5 +1,7 @@
-<div>
-  <h1>{{ $ctrl.item.title }}</h1>
+<div class="teaser-caption">
+  <h2>{{ $ctrl.item.title }}</h2>
   <p>{{ $ctrl.item.subject }}</p>
-  <img ng-src="{{ $ctrl.item.images.thumb }}" alt="">
 </div>
+<div class="white-overlay"></div>
+<img ng-src="{{ $ctrl.item.images.thumb }}" alt="">
+<img class="under-layer" ng-src="/assets/under-layer.svg" alt="">

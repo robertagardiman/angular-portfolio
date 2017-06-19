@@ -1,3 +1,41 @@
+@import './home/home.scss';
+@import './variables.scss';
+@import './header.scss';
+@import './projects/projects.scss';
+@import './projects-list/projects-list.scss';
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: yellow;
+  margin: 0;
+}
+
+app {
+  display: block;
+}
+
+section {
+  padding: 60px;
+}
+
+.contact-me {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+
+  transition: transform .3s ease;
+  img {
+    width: 35px;
+  }
+  &:hover {
+    transform: rotate(-30deg);
+  }
+}
+
+.divider {
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
 }

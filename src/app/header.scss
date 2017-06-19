@@ -1,0 +1,44 @@
+header {
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100vw;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+
+  z-index: 1;
+  .logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .nav {
+    grid-column-start: 2;
+    grid-column-end: last-line;
+    text-align: right;
+    .nav-item {
+      display: inline-block;
+      margin-left: 15px;
+      text-align: center;
+      a {
+        font-weight: 500;
+        font-size: 18px;
+      }
+      img {
+        display: block;
+        margin: 5px auto 0;
+        opacity: 0;
+
+        transition: opacity .3s;
+      }
+      &:hover img {
+        opacity: 1;
+      }
+    }
+    .selected img {
+      opacity: 1;
+    }
+  }
+
+}

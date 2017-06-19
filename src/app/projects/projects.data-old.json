@@ -127,5 +127,68 @@
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
         }
+    },
+    {
+        "id": 7,
+        "slug": "leaf-lamp",
+        "title": "Leaf Lamp",
+        "place": "Politecnico di Milano",
+        "year": 2014,
+        "subject": "Product Design",
+        "subtitle": "Leaf is a lamp for Artemide inspired by Frida Isola, an original lounge bar of Milan.",
+        "concept": "Concept",
+        "concept_description": "Its use is a sort of game for the clients of the bar, who will bring it to the table to light it up during their permanence at the bar; creating, all together, a wonderful game of soft lights atmosphere, typical of Frida Isola at night.Leaf is developed in partnership with Artemide and respects the main qualities of its products: elegance, linearity and environmental sustainability. Once rolled and fixed the lampshade up, using the special clips inside the packaging, it will be enough to place it on its basis pressing an easy mechanical joint.",
+        "description": "",
+        "description_1":"",
+        "description_2":"",
+        "description_3":"",
+        "images": {
+          "thumb": "./../../assets/placeholder-photo.png",
+          "cover": "./../../assets/cover-placeholder.png",
+          "photo_1": "./../../assets/photo-1.png",
+          "photo_2": "./../../assets/photo-2.png"
+        }
+    },
+    {
+        "id": 8,
+        "slug": "atm-webapp",
+        "title": "ATM Milano Webapp",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Ux Design",
+        "subtitle": "Creation of a new responsive webapp For atm Milano, including new Services with a strong focus on User Experience.",
+        "concept": "Concept",
+        "concept_description": "The Project started with a deep analisys on ATM vending machines that begun with interviews, the creation of personas and also from their inputs the aim of the Project was to simplify the structure of the whole purchasing system. The last step has been evolving the project into a responsive webapp usign the features of desktop and mobile phones in particular ( such as camera and geolocalisation ) to offer a better service For People.",
+        "description": "The map tool is always visible to prevent errors. It suggests the way for you to reach any place, speeding up the ticket purchase. The search bar helps increasing the efficiency of the service. It also give the possibility to save the ticket and use it when it is necessary. Finally the Login comes after the map tool to allow to use the webapp also just for quick infos, giving immediate feedback to the user.",
+        "description_1":"The template is fixed to focus the user and rassure him without scrolling. There are no differences between city areas and it's added the possibility to save the ticket for later usage.",
+        "description_2":"Researches done in the Milan Area pointed out that the majority of people search for €1,50 ticket. For this reason it has been introduced a new function that, saving clicks, allows users to purchase the urban ticket very fast from the main menu of the app. Since this is a new feature and people have to get used to it, the app has a brief description next to the call to action to prevent any error.",
+        "description_3":"This particular funtion represented a problem for mobile users that have to fill in a crowded form, to make it easier, exploiting the features of a common smartphone, it has been introduced the possibility to scan card's data with the camera; this is a way, together with inline validation, to prevent errors. Another problem occurred while choosing between a list of contracts that in the mobile was too crowded to tap the one that suites for the users' needs. For this reason it has been added a shortcut to recharge the last contract the user did (which is quite often the choice he selects), giving him a clear resume and the possibility to find a totem where he can activate the card.",
+        "images": {
+          "thumb": "./../../assets/placeholder-photo.png",
+          "cover": "./../../assets/cover-placeholder.png",
+          "photo_1": "./../../assets/photo-1.png",
+          "photo_2": "./../../assets/photo-2.png"
+        }
+    },
+    {
+        "id": 9,
+        "slug": "flora-web-magazine",
+        "title": "Flora Web Magazine",
+        "place": "SPD Milano",
+        "year": 2016,
+        "subject": "Digital Typography",
+        "subtitle": "Creation of a typographic magazine with a strong focus on graphic design, typography in particular.",
+        "concept": "Concept",
+        "concept_description": "The Project's aim is to create an elegant, fresh and girly magazine for IPad. I was given a word - Flora - to work on in order to end with: a typographic logo, a cover page, and a text format consistent with the brief. To give an elegant and feminine look and feel to the magazine.",
+        "description": "A closer look on the Flora's logo.",
+        "description_1":"Below Flora Magazine's final output within the design of the cover page.",
+        "description_2":"",
+        "description_3":"",
+        "images": {
+          "thumb": "./../../assets/placeholder-photo.png",
+          "cover": "./../../assets/cover-placeholder.png",
+          "photo_1": "./../../assets/photo-1.png",
+          "photo_2": "./../../assets/photo-2.png"
+        }
     }
 ]

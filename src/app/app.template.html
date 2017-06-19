@@ -1,9 +1,17 @@
 <header>
-  <a ui-sref="Home">Home</a>
-  <a ui-sref="Projects">Projects</a>
-  <a ui-sref="About">About</a>
+  <img ui-sref="Home" ng-src="/assets/logo.svg" alt="logo">
+  <div class="nav">
+    <div ng-class="{selected: $ctrl.setActive('projects')}" class="nav-item">
+      <a ui-sref="Projects">Projects</a>
+      <img ng-src="/assets/divider.svg" alt="">
+    </div>
+    <div ng-class="{selected: $ctrl.setActive('about')}" class="nav-item">
+      <a ui-sref="About">About</a>
+      <img ng-src="/assets/divider.svg" alt="">
+    </div>
+  </div>
 </header>
 
-<section ui-view>
+<section ui-view></section>
 
-</section>
+<a href="mailto:roberta.gardiman@gmail.com" class="contact-me"><img ng-src="/assets/contact.svg" alt=""></a>

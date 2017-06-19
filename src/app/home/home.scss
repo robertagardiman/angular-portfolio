@@ -1,0 +1,35 @@
+home {
+  display: block;
+  width: 100%;
+
+  #intro{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
+    padding-left: 120px;
+    background-color: #C4ECEA;
+    list-style: none;
+    z-index: -1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    li {
+      font-size: 180px;
+      color: white;
+      font-weight: bold;
+      line-height: 150px;
+    }
+  }
+
+  #projects {
+    position: relative;
+    top: 100vh;
+    padding: 0;
+  }
+}
