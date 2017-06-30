@@ -1,5 +1,33 @@
 <div class="img-container"></div>
-<h1>Roberta.</h1>
-<div class="random-container">
+
+<!-- <div class="random-container">
   <img ng-src="/assets/random-fake.png" alt="">
-</div>
+</div> -->
+
+<article>
+  <h1>Roberta.</h1>
+  <div class="about-content">
+    <div class="about-block">
+      <h3>profile</h3>
+      <p>I'm a creative thinker specialised in Web and Digital Design, based in Milan. I've always been curious about design in all its shapes and I'm happy to work on my passion.</p>
+    </div>
+    <div class="about-block">
+      <h3>contact</h3>
+      <p>mail / <a href="mailto:roberta.gardiman@gmail.com">roberta.gardiman@gmail.com</a></p>
+      <p>phone / <a href="">+39 3463063216</a></p>
+    </div>
+    <div class="about-block">
+      <h3>skills</h3>
+      <ul>
+        <li ng-repeat="skill in $ctrl.skills">
+          <p>{{ skill.name }}</p>
+        </li>
+      </ul>
+    </div>
+    <div class="about-block">
+      <div class="random-container">
+        <img ng-src="/assets/random-fake.png" alt="">
+      </div>
+    </div>
+  </div>
+</article>
