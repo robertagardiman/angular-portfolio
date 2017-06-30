@@ -2,7 +2,6 @@ export default class ProjectsService {
 		/* @ngInject */
 		constructor($http){
 			this.http = $http;
-      console.log('sono il servizio');
 		}
 
 		getProjects() {
