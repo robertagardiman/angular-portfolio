@@ -1,3 +1,5 @@
+@import "./../variables.scss";
+
 home {
   display: block;
   width: 100%;
@@ -11,7 +13,7 @@ home {
     height: 100vh;
     padding: 60px;
     padding-left: 120px;
-    background-color: #C4ECEA;
+    background-color: $light-blue;
     list-style: none;
     z-index: -1;
 

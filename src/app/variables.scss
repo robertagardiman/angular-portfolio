@@ -1,12 +1,12 @@
-* {
-  font-family: 'Helvetica Neue', sans-serif;
-  color: #444444;
-}
-
 // COLORS
 $light-blue: #C4ECEA;
 $dark-grey: #444444;
 $pink: #FFDCDC;
+
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: $dark-grey;
+}
 
 h1 {
   font-size: 64px;

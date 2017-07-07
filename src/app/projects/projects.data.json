@@ -8,7 +8,7 @@
         "subject": "Ux Design/Development",
         "subtitle": " UX Design, SEO and Front-End Development of Luceplan.com website",
         "link": "https://www.luceplan.com",
-        "link-name": "luceplan.com",
+        "link_name": "www.luceplan.com",
         "concept": "Concept",
         "concept_description": "Luceplan asked to redesign their website with a new and contemporary look. The project had to be ready for the “Salone del Mobile 2017”, where Luceplan was one of the main brands of “Euroluce”, international exhibition of light and lamp design.",
         "description": "The peculiarity of this project was the CMS used: Statamic is a “Flat CMS”, based on files and not in DB. Is dynamic, but can behave as a static website, using a sophisticated method of caching, to make the app become faster (performing).",

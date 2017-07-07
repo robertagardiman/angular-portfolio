@@ -3,7 +3,11 @@
     <h1>{{ $ctrl.item.title }}</h1>
     <img class="divider" ng-src="/assets/divider.svg" alt="">
     <p>{{ $ctrl.item.subtitle }}</p>
-    <a ng-if="$ctrl.item.link" href="{{ $ctrl.item.link }}" target="_blank">{{ $ctrl.item.link }}</a>
+    <a ng-if="$ctrl.item.link" href="{{ $ctrl.item.link }}" target="_blank">
+      {{ $ctrl.item.link_name }}
+      <div class="hover-line"></div>
+    </a>
+
   </article>
   <article class="detail-content">
     <img ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
