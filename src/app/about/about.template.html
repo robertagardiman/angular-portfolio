@@ -4,7 +4,7 @@
   <img ng-src="/assets/random-fake.png" alt="">
 </div> -->
 
-<article>
+<article class="about-container">
   <h1>Roberta.</h1>
   <div class="about-content">
     <div class="about-block">
@@ -18,16 +18,26 @@
     </div>
     <div class="about-block">
       <h3>skills</h3>
-      <ul>
+      <ul class="about-skills">
         <li ng-repeat="skill in $ctrl.skills">
-          <p>{{ skill.name }}</p>
+          <div class="skill-level">
+              <svg class="progress" width="60" height="60" viewBox="0 0 120 120">
+                  <circle class="progress__meter" cx="60" cy="60" r="54" stroke-width="4" />
+                  <circle class="progress__value" cx="60" cy="60" r="54" stroke-width="4" />
+              </svg>
+              <img src="{{ skill.icon }}" alt="">
+          </div>
+          <!-- <p>{{ skill.name }}</p> -->
+
         </li>
       </ul>
     </div>
+
     <div class="about-block">
       <div class="random-container">
         <img ng-src="/assets/random-fake.png" alt="">
       </div>
     </div>
   </div>
+
 </article>

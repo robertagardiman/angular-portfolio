@@ -1,7 +1,6 @@
 export default class DetailController{
   /* @ngInject */
   constructor(ProjectsService, $state){
-    console.log('sono il controller del dettaglio');
     this.state = $state;
     this._projectsService = ProjectsService;
   }
