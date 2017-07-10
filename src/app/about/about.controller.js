@@ -2,48 +2,48 @@ export default class AboutController{
   constructor(){
     this.skills = [
       {
-        name: 'html',
+        name: 'Html',
         level: '90',
         icon: './../../../assets/loghi-skills/html-logo.svg'
       },
       {
-        name: 'css',
+        name: 'Css',
         level: '90',
         icon: './../../../assets/loghi-skills/css-logo.png'
       },
       {
-        name: 'sass',
-        level: '50',
+        name: 'Sass',
+        level: '90',
         icon: './../../../assets/loghi-skills/sass-logo.png'
       },
       {
-        name: 'angularJs',
+        name: 'AngularJs',
         level: '50',
         icon: './../../../assets/loghi-skills/angular-logo.png'
       },
       {
-        name: 'js',
-        level: '50',
+        name: 'Javascript',
+        level: '60',
         icon: './../../../assets/loghi-skills/js-logo.png'
       },
       {
-        name: 'sketchApp',
-        level: '50',
+        name: 'SketchApp',
+        level: '100',
         icon: './../../../assets/loghi-skills/sketch-logo.jpg'
       },
       {
-        name: 'Ps',
-        level: '50',
+        name: 'Photoshop',
+        level: '80',
         icon: './../../../assets/loghi-skills/photoshop-logo.png'
       },
       {
-        name: 'Ai',
-        level: '50',
+        name: 'Illustrator',
+        level: '80',
         icon: './../../../assets/loghi-skills/illustrator-logo.png'
       },
       {
-        name: 'Ae',
-        level: '50',
+        name: 'A. Effects',
+        level: '70',
         icon: './../../../assets/loghi-skills/after-logo.png'
       },
     ]

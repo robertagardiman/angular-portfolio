@@ -32,7 +32,13 @@
     </div>
   </article>
   <article class="detail-nav">
-    <div ng-click="$ctrl.prev()">Prev</div>
-    <div ng-click="$ctrl.next(item)">Next</div>
+    <div class="nav-button prev" ng-click="$ctrl.prev()">
+      <div class="button-overlay"></div>
+      <span>Prev</span>
+      <p>{{ $ctrl.prevProjectTitle}}</p></div>
+    <div class="nav-button next" ng-click="$ctrl.next(item)">
+      <div class="button-overlay"></div>
+      <span>Next</span>
+      <p>{{ $ctrl.nextProjectTitle}}</p></div>
   </article>
 </section>
