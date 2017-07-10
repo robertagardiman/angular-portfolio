@@ -8,13 +8,11 @@ export default class DetailController{
     this.slug = this.state.params.slug;
     this.item = this._projectsService.activeProject; //current project
 
-    if(!this.item){
-      this._projectsService.getProjects().then((projects) => {
-        this.item = projects.find(p => p.slug == this.slug);
-        this.nextProjectTitle = this.getNextProj(this.item, projects);
-        this.prevProjectTitle = this.getPrevProj(this.item, projects);
-      })
-    }
+    this._projectsService.getProjects().then((projects) => {
+      this.item = projects.find(p => p.slug == this.slug);
+      this.nextProjectTitle = this.getNextProj(this.item, projects);
+      this.prevProjectTitle = this.getPrevProj(this.item, projects);
+    })
   }
 
   getNextProj(item, projects){

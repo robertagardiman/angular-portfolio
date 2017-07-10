@@ -53,7 +53,7 @@ export default class AboutController{
   $onInit(){
 
     setTimeout(function(){
-      document.querySelector('article.about-container').classList.add('go-up');
+      document.querySelector('article.about__container').classList.add('go-up');
     }, 1000);
 
     setTimeout(this.setSkillsLevel.bind(this, this.skills), 0)

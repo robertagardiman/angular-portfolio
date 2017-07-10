@@ -39,8 +39,8 @@
         "description_2":"",
         "description_3":"",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
-          "cover": "./../../assets/cover-placeholder.png",
+          "thumb": "./../../assets/osteria-francescana/teaser-osteria-francescana.jpg",
+          "cover": "./../../assets/osteria-francescana/mockup-osteria.jpg",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
         }

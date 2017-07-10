@@ -4,7 +4,7 @@ home {
   display: block;
   width: 100%;
 
-  #intro{
+  #home__intro{
     position: absolute;
     left: 0;
     top: 0;
@@ -29,7 +29,7 @@ home {
     }
   }
 
-  #projects {
+  #home__projects {
     position: relative;
     top: 100vh;
     padding: 0;

@@ -1,5 +1,5 @@
 <section class="product-detail">
-  <article class="detail-intro">
+  <article class="detail__intro">
     <h1>{{ $ctrl.item.title }}</h1>
     <img class="divider" ng-src="/assets/divider.svg" alt="">
     <p>{{ $ctrl.item.subtitle }}</p>
@@ -9,36 +9,38 @@
     </a>
 
   </article>
-  <article class="detail-content">
+  <article class="detail__content">
     <img ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
-    <div class="text-block">
+    <div>
       <h3>{{ $ctrl.item.concept }}</h3>
       <p>{{ $ctrl.item.concept_description }}</p>
     </div>
     <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
     <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
-    <div class="text-block">
+    <div>
       <p>{{ $ctrl.item.description }}</p>
     </div>
     <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
     <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
-    <div class="text-block">
+    <div>
       <p>{{ $ctrl.item.description_1 }}</p>
       <p>{{ $ctrl.item.description_2 }}</p>
     </div>
     <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
-    <div class="text-block">
+    <div>
       <p>{{ $ctrl.item.description_3 }}</p>
     </div>
   </article>
-  <article class="detail-nav">
-    <div class="nav-button prev" ng-click="$ctrl.prev()">
-      <div class="button-overlay"></div>
+  <article class="detail__nav">
+    <div class="detail__nav--btn detail__nav--btn--prev" ng-click="$ctrl.prev()">
       <span>Prev</span>
-      <p>{{ $ctrl.prevProjectTitle}}</p></div>
-    <div class="nav-button next" ng-click="$ctrl.next(item)">
-      <div class="button-overlay"></div>
+      <p>{{ $ctrl.prevProjectTitle}}</p>
+      <div class="detail__btn--overlay"></div>
+    </div>
+    <div class="detail__nav--btn detail__nav--btn--next" ng-click="$ctrl.next(item)">
       <span>Next</span>
-      <p>{{ $ctrl.nextProjectTitle}}</p></div>
+      <p>{{ $ctrl.nextProjectTitle}}</p>
+      <div class="detail__btn--overlay"></div>
+    </div>
   </article>
 </section>

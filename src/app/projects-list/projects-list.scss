@@ -15,7 +15,7 @@ projects-list {
 
       transition: margin .3s ease;
     }
-    .teaser-caption {
+    .item__teaser-caption {
       position: absolute;
       width: 90%;
       top: 0;
@@ -26,6 +26,7 @@ projects-list {
       transition: all .3s ease;
       h2 {
         font-size: 44px;
+        line-height: 1;
         color: #444444;
         margin-bottom: 0;
       }
@@ -34,7 +35,7 @@ projects-list {
       }
     }
 
-    .white-overlay {
+    .item__white-overlay {
       background-color: rgba(255, 255, 255, 0.5);
       position: absolute;
       top: 0;
@@ -47,7 +48,7 @@ projects-list {
       transition: all .3s;
     }
 
-    .under-layer {
+    .item__under-layer {
       position: absolute;
       left: 0;
       top: 0;
@@ -61,12 +62,12 @@ projects-list {
   item:hover {
     cursor: pointer;
   }
-  item:hover .teaser-caption{
+  item:hover .item__teaser-caption{
     top: -10px;
     left: -20px;
     opacity: 1;
   }
-  item:hover .white-overlay{
+  item:hover .item__white-overlay{
     opacity: 1;
     top: -10px;
     left: -10px;
@@ -74,7 +75,7 @@ projects-list {
   item:hover img{
     margin: -10px 0 0 -10px;
   }
-  item:hover .under-layer{
+  item:hover .item__under-layer{
     left: 10px;
     top: 10px;
     opacity: 1;

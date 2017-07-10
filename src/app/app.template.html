@@ -1,11 +1,11 @@
 <header>
   <img class="logo" ui-sref="Home" ng-src="/assets/logo.svg" alt="logo">
   <div class="nav">
-    <div ng-class="{selected: $ctrl.setActive('projects')}" class="nav-item">
+    <div ng-class="{selected: $ctrl.setActive('projects')}" class="nav__item">
       <a ui-sref="Projects">Projects</a>
       <img ng-src="/assets/divider.svg" alt="">
     </div>
-    <div ng-class="{selected: $ctrl.setActive('about')}" class="nav-item">
+    <div ng-class="{selected: $ctrl.setActive('about')}" class="nav__item">
       <a ui-sref="About">About</a>
       <img ng-src="/assets/divider.svg" alt="">
     </div>
@@ -16,4 +16,4 @@
 
 <a ng-class="{disappear: $ctrl.setActive('about')}" href="mailto:roberta.gardiman@gmail.com" class="contact-me"><img ng-src="/assets/contact.svg" alt=""></a>
 
-<a ng-if="$ctrl.setActive('about')" class="btn-download" href="#" target="_blank">download cv</a>
+<a ng-if="$ctrl.setActive('about')" class="btn--download" href="#" target="_blank">download cv</a>

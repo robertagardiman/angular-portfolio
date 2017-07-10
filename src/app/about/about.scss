@@ -4,7 +4,7 @@ about {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0 140px 0 70px;
-  .img-container {
+  .about__img-container {
     position: fixed;
     background-image: url('/assets/foto-home.jpg');
     background-size: cover;
@@ -14,7 +14,7 @@ about {
     z-index: -2;
   }
 
-  article {
+  article.about__container {
     position: relative;
     top: 63vh;
     padding-right: 100px;
@@ -29,7 +29,7 @@ about {
         margin-left: -70px;
       }
 
-      .about-content {
+      .about__content {
         display: grid;
         grid-template-columns: 60% 40%;
         grid-template-rows: 100%;
@@ -37,11 +37,11 @@ about {
         background-color: white;
         width: 110%;
 
-      .about-block {
-        margin-bottom: 30px;
+      .about__item {
+        margin: 30px 0;
         h3 {
           text-transform: uppercase;
-          font-size: 18px;
+          font-size: 14px;
           letter-spacing: 3px;
           margin-bottom: 5px;
         }
@@ -49,13 +49,13 @@ about {
           margin: 0;
           font-size: 18px;
         }
-        .random-container {
+        .about__container--random {
           img {
             width: 30%;
           }
         }
 
-        ul.about-skills {
+        ul.about__skills {
           list-style: none;
           padding: 0;
           display: flex;
@@ -71,7 +71,7 @@ about {
             &:first-child {
               margin-left: 0;
             }
-            .skill-overlay {
+            .about__skills--overlay {
               position: absolute;
               background-color: white;
               opacity: 0;
@@ -84,7 +84,7 @@ about {
               align-items: center;
 
               transition: all 0.4s ease;
-              .skill-name {
+              .about__skill__name {
                 font-size: 13px;
                 text-align: center;
                 font-weight: 500;
@@ -94,7 +94,7 @@ about {
               }
             }
 
-            .skill-level{
+            .about__skill__level{
               position: relative;
               img {
                 width: 30px;
@@ -134,7 +134,7 @@ about {
   position: absolute;
   left: -999em;
 }
-.skill-level {
+.about__skill__level {
   position: absolute;
   top: 0;
   left: 0;
@@ -153,7 +153,7 @@ about {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.skill-level :first-child {
+.about__skill__level :first-child {
   margin-bottom: 20px;
 }
 .progress {
@@ -171,23 +171,32 @@ about {
   stroke: $dark-grey;
   stroke-linecap: round;
 }
-
 // SKILL CIRCLE END
 
+
+/************ AFTER setTimeout THE CONTENT SLIDES UP *************/
 .go-up {
   top: 16vh;
+  z-index: 0;
 }
+/************ END *************/
 
-.btn-download {
+.btn--download {
   position: fixed;
   bottom: 60px;
   right: 60px;
   padding: 13px 35px;
-  //background-color: $pink;
-  //color: white;
+  background-color: white;
   border: 2px solid $dark-grey;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
+
+  transition: all .3s ease;
+  &:hover {
+    border: 0;
+    color: white;
+    background-color: $pink;
+  }
 }
