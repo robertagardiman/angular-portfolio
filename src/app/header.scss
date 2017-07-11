@@ -7,8 +7,12 @@ header {
   padding: 60px;
   display: grid;
   grid-template-columns: 10% 90%;
-
   z-index: 1;
+
+  @media (max-width: $screen-md-max) {
+    padding: 30px;
+  }
+
   .logo {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -43,5 +47,4 @@ header {
       opacity: 1;
     }
   }
-
 }

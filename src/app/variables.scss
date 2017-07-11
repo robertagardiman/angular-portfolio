@@ -4,6 +4,12 @@ $dark-grey: #444444;
 $pink: #FFDCDC;
 $peach: #FFEFE8;
 
+//MEDIA QUERIES
+$screen-lg-max:                1200px;
+$screen-md-max:                991px;
+$screen-sm-max:                768px;
+$screen-xs-max:                450px;
+
 * {
   font-family: 'Helvetica Neue', sans-serif;
   color: $dark-grey;

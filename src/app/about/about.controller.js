@@ -51,9 +51,9 @@ export default class AboutController{
   }
 
   $onInit(){
-
     setTimeout(function(){
-      document.querySelector('article.about__container').classList.add('go-up');
+      console.log('ciaoooo');
+      document.querySelector('#about__container').classList.add('go-up');
     }, 1000);
 
     setTimeout(this.setSkillsLevel.bind(this, this.skills), 0)
@@ -70,7 +70,6 @@ export default class AboutController{
         const dashoffset = CIRCUMFERENCE * (1 - progress);
 
         // console.log('progress:', value + '%', '|', 'offset:', dashoffset)
-        console.log(dashoffset);
         return dashoffset;
 
           // progressValue.forEach(p=> {
@@ -83,7 +82,6 @@ export default class AboutController{
         p.style.strokeDasharray = CIRCUMFERENCE;
         p.style.strokeDashoffset = progress(skills[index].level);
         //progress(40);
-        console.log(skills[index].level);
       })
 
         progressValue[0].style.strokeDasharray = CIRCUMFERENCE;

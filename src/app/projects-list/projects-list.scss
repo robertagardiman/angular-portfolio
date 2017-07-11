@@ -3,16 +3,33 @@ projects-list {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 140px 0 70px;
+  padding: 105px 140px 0 70px;
+
+  //only for me <3
+  @media (width: 1440px) {
+    padding: 0 140px 0 70px;
+  }
+
+  @media (max-width: $screen-md-max) {
+    padding: 30px 60px;
+    margin-top: 40px;
+  }
+  @media (max-width: $screen-xs-max) {
+    padding: 0;
+    margin-top: 40px;
+  }
+
   item {
     position: relative;
     width: 32.5%;
     margin-bottom: 1%;
+    @media (max-width: $screen-md-max) {
+      width: 49%;
+    }
 
     img {
-      margin: 0 0 0 0;
+      margin: 0;
       width: 100%;
-
       transition: margin .3s ease;
     }
     .item__teaser-caption {
@@ -22,8 +39,10 @@ projects-list {
       left: 0;
       z-index: 1;
       opacity: 0;
-
       transition: all .3s ease;
+      @media (max-width: $screen-xs-max) {
+        display: none;
+      }
       h2 {
         font-size: 44px;
         line-height: 1;
@@ -43,9 +62,11 @@ projects-list {
       width: 100%;
       height: 102%;
       z-index: 0;
-
       opacity: 0;
       transition: all .3s;
+      @media (max-width: $screen-xs-max) {
+        display: none;
+      }
     }
 
     .item__under-layer {
@@ -54,30 +75,51 @@ projects-list {
       top: 0;
       z-index: -1;
       opacity: 0;
-
       transition: opacity .3s ease;
+      @media (max-width: $screen-xs-max) {
+        display: none;
+      }
     }
 
   }
   item:hover {
     cursor: pointer;
+
   }
   item:hover .item__teaser-caption{
     top: -10px;
     left: -20px;
     opacity: 1;
+    @media (max-width: $screen-xs-max) {
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
   }
   item:hover .item__white-overlay{
     opacity: 1;
     top: -10px;
     left: -10px;
+    @media (max-width: $screen-xs-max) {
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
   }
   item:hover img{
     margin: -10px 0 0 -10px;
+    @media (max-width: $screen-xs-max) {
+      margin: 0;
+    }
   }
   item:hover .item__under-layer{
     left: 10px;
     top: 10px;
     opacity: 1;
+    @media (max-width: $screen-xs-max) {
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
   }
 }

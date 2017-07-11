@@ -14,7 +14,7 @@ about {
     z-index: -2;
   }
 
-  article.about__container {
+  article#about__container {
     position: relative;
     top: 63vh;
     padding-right: 100px;
@@ -176,7 +176,7 @@ about {
 
 /************ AFTER setTimeout THE CONTENT SLIDES UP *************/
 .go-up {
-  top: 16vh;
+  top: 16vh !important;
   z-index: 0;
 }
 /************ END *************/

@@ -3,29 +3,41 @@
 detail {
   display: block;
   padding: 0 140px 0 70px;
+  @media (max-width: $screen-md-max) {
+    padding: 0;
+  }
   .detail__intro {
     position: fixed;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     left: 0;
     top: 0;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 
     background-color: white;
     h1 {
       margin-bottom: 30px;
+      @media (max-width: $screen-xs-max) {
+        font-size: 30px;
+      }
     }
 
     .divider {
       margin: 0;
       margin-bottom: 30px;
+      @media (max-width: $screen-xs-max) {
+        margin-bottom: 10px;
+      }
     }
     p {
-      width: 50%;
+      width: 80%;
       text-align: center;
+      @media (max-width: $screen-xs-max) {
+        font-size: 14px;
+      }
     }
 
     .hover-line {
@@ -61,15 +73,33 @@ detail {
     background-color: rgba(255, 255, 255, 0.9);
     position: relative;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding-top: 50px;
+    @media(max-width: $screen-md-max) {
+      padding-bottom: 60px;
+    }
     .detail__nav--btn {
       position: relative;
+      @media(max-width: $screen-md-max) {
+        background-color: $peach;
+        padding: 3px 20px;
+      }
       span {
         font-weight: normal;
         font-size: 14px;
         position: relative;
         z-index: 1;
+
+        @media (max-width: $screen-xs-max) {
+          position: relative;
+          padding: 10px 50px;
+          text-transform: uppercase;
+          text-align: center;
+          background-color: $peach;
+          letter-spacing: 1px;
+          font-weight: 500;
+        }
       }
       p {
         font-size: 24px;
@@ -78,6 +108,10 @@ detail {
         margin: 0;
         position: relative;
         z-index: 1;
+
+        @media (max-width: $screen-xs-max) {
+          display: none;
+        }
       }
     }
     .detail__nav--btn--prev {
@@ -88,6 +122,9 @@ detail {
         position: absolute;
         top: 0;
         transition: all .3s ease;
+        @media (max-width: $screen-xs-max) {
+          display: none;
+        }
       }
       p, span {
         margin-left: 0;
@@ -96,6 +133,9 @@ detail {
       &:hover {
         .detail__btn--overlay{
           width: 310px;
+          @media (max-width: $screen-xs-max) {
+            display: none;
+          }
         }
         p, span {
           margin-left: -25px;
@@ -111,6 +151,9 @@ detail {
         position: absolute;
         top: 0;
         transition: all .3s ease;
+        @media (max-width: $screen-xs-max) {
+          display: none;
+        }
       }
       p, span {
         margin-right: 0;
@@ -120,6 +163,9 @@ detail {
       &:hover {
         .detail__btn--overlay{
           width: 100%;
+          @media (max-width: $screen-xs-max) {
+            display: none;
+          }
         }
         p, span {
           margin-right: -25px;

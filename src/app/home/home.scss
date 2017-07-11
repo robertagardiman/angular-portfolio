@@ -1,10 +1,6 @@
 @import "./../variables.scss";
 
-home {
-  display: block;
-  width: 100%;
-
-  #home__intro{
+  #home__intro {
     position: absolute;
     left: 0;
     top: 0;
@@ -16,16 +12,28 @@ home {
     background-color: $light-blue;
     list-style: none;
     z-index: -1;
-
     display: flex;
     flex-flow: column;
     justify-content: center;
+
+    @media (max-width: $screen-md-max) {
+        padding: 30px;
+    }
 
     li {
       font-size: 180px;
       color: white;
       font-weight: bold;
       line-height: 150px;
+
+      @media (max-width: $screen-md-max) {
+        font-size: 90px;
+        line-height: 85px;
+      }
+      @media (max-width: $screen-xs-max) {
+        font-size: 90px;
+        line-height: 85px;
+      }
     }
   }
 
@@ -34,4 +42,3 @@ home {
     top: 100vh;
     padding: 0;
   }
-}
