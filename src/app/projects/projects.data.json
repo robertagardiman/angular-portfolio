@@ -16,7 +16,7 @@
         "description_2":"Following the guidelines given from CCRZ, a Swiss graphic design studio, we built the graphic style of the site with a fresher and cleaner look and feel, very simple, focusing on beautiful photos of Luceplan products.",
         "description_3":"Finally we implemented the SEO strategy and analytics, to optimise the website in Google's ranks.",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
+          "thumb": "./../../assets/luceplan/teaser-luceplan.jpg",
           "cover": "./../../assets/cover-placeholder.png",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
@@ -62,7 +62,7 @@
         "description_2":"The third section focuses on the events that IOP selects (in different cities) and than proposes to users based on the mood they selected at the beginning. This section has the power to create a net of contacts and real interactions between people of IOP, inviting them to live some experience where they have the possibility to try for real Samsung products and, building a solid relation with the brand, be invited to fill the Pure and Product sections with the experiences that the Event section proposes.",
         "description_3":"",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
+          "thumb": "./../../assets/iop/teaser-iop.jpg",
           "cover": "./../../assets/cover-placeholder.png",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
@@ -83,7 +83,7 @@
         "description_2":"",
         "description_3":"",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
+          "thumb": "./../../assets/nike/teaser-nike.jpg",
           "cover": "./../../assets/cover-placeholder.png",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
@@ -104,7 +104,7 @@
         "description_2":"The SEM strategy focused on increase sales by bringing more people to the site, with special attention to customized products. The aim is to create appealing campaigns that could engage our target.",
         "description_3":"In order to push the customized glasses sales we are planning to create a techinicolor week. Every day of the week will have a specific color promoted, the user should add that color in his customized product in order to get the discount on the final result. This campaign can be used for the holiday season but can be also adapted in order to set “RayBan culture” in a period of the year.",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
+          "thumb": "./../../assets/rayban/teaser-rayban.jpg",
           "cover": "./../../assets/cover-placeholder.png",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"
@@ -125,7 +125,7 @@
         "description_2":"It is a fluid and modular system of milestones services that the sales assistant can give to users based on the depth of their relation. In this way every bond is different and the sales assistant can decide at which point to proceed with deeper personal services.",
         "description_3":"After the first purchase the customers would be given the “Key” of the shop, That would help recognise them all over the world as they enter the boutiques and treat them with the same importance.",
         "images": {
-          "thumb": "./../../assets/placeholder-photo.png",
+          "thumb": "./../../assets/veneta/teaser-veneta1.jpg",
           "cover": "./../../assets/cover-placeholder.png",
           "photo_1": "./../../assets/photo-1.png",
           "photo_2": "./../../assets/photo-2.png"

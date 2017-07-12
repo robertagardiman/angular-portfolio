@@ -1,13 +1,14 @@
 projects-list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
-  padding: 105px 140px 0 70px;
+  padding: 0 170px 0 100px;
+  margin-bottom: 40px;
 
   //only for me <3
   @media (width: 1440px) {
-    padding: 0 140px 0 70px;
+    padding: 0 170px 0 100px;
   }
 
   @media (max-width: $screen-md-max) {
@@ -21,8 +22,8 @@ projects-list {
 
   item {
     position: relative;
-    width: 32.5%;
-    margin-bottom: 1%;
+    width: 31%;
+    margin-bottom: 2%;
     @media (max-width: $screen-md-max) {
       width: 49%;
     }
@@ -55,7 +56,7 @@ projects-list {
     }
 
     .item__white-overlay {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.7);
       position: absolute;
       top: 0;
       left: 0;
