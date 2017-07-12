@@ -4,14 +4,28 @@ about {
   justify-content: space-between;
   align-items: flex-start;
   padding: 0 140px 0 70px;
+  @media(max-width: $screen-sm-max) {
+    margin-top: 30px;
+    padding: 0;
+  }
+
   .about__img-container {
     position: fixed;
     background-image: url('/assets/foto-home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 74%;
     height: 550px;
     z-index: -2;
+    @media(max-width: $screen-md-max) {
+      width: 93vw;
+      height: 80vh;
+    }
+    @media(max-width: $screen-xs-max) {
+      width: 84vw;
+      height: 40vh;
+    }
   }
 
   article#about__container {
@@ -20,13 +34,21 @@ about {
     padding-right: 100px;
     padding-top: 30px;
     z-index: -1;
-
     transition: all .5s ease;
+
+    @media(max-width: $screen-sm-max) {
+      padding-right: 0;
+      top: 77vh;
+    }
 
       h1 {
         font-size: 100px;
         margin: 30px 0;
         margin-left: -70px;
+        @media(max-width: $screen-sm-max) {
+          font-size: 60px;
+          margin-left: -15px;
+        }
       }
 
       .about__content {
@@ -36,9 +58,17 @@ about {
         grid-column-gap: 50px;
         background-color: white;
         width: 110%;
+        @media(max-width: $screen-sm-max) {
+          grid-template-columns: 100%;
+          width: 101%;
+          padding-bottom: 30px;
+        }
 
       .about__item {
         margin: 30px 0;
+        @media(max-width: $screen-md-max) {
+          margin: 30px 0 0;
+        }
         h3 {
           text-transform: uppercase;
           font-size: 14px;
@@ -51,7 +81,7 @@ about {
         }
         .about__container--random {
           img {
-            width: 30%;
+            width: 100px;
           }
         }
 
@@ -192,8 +222,11 @@ about {
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
-
   transition: all .3s ease;
+  @media(max-width: $screen-sm-max) {
+    bottom: 20px;
+    right: 20px;
+  }
   &:hover {
     border: 0;
     color: white;

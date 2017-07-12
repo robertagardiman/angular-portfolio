@@ -40,7 +40,7 @@ projects-list {
       z-index: 1;
       opacity: 0;
       transition: all .3s ease;
-      @media (max-width: $screen-xs-max) {
+      @media (max-width: $screen-sm-max) {
         display: none;
       }
       h2 {
@@ -64,7 +64,7 @@ projects-list {
       z-index: 0;
       opacity: 0;
       transition: all .3s;
-      @media (max-width: $screen-xs-max) {
+      @media (max-width: $screen-sm-max) {
         display: none;
       }
     }
@@ -76,7 +76,7 @@ projects-list {
       z-index: -1;
       opacity: 0;
       transition: opacity .3s ease;
-      @media (max-width: $screen-xs-max) {
+      @media (max-width: $screen-sm-max) {
         display: none;
       }
     }

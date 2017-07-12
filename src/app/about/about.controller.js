@@ -52,7 +52,6 @@ export default class AboutController{
 
   $onInit(){
     setTimeout(function(){
-      console.log('ciaoooo');
       document.querySelector('#about__container').classList.add('go-up');
     }, 1000);
 
