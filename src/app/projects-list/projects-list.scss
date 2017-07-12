@@ -6,11 +6,6 @@ projects-list {
   padding: 0 170px 0 100px;
   margin-bottom: 40px;
 
-  //only for me <3
-  @media (width: 1440px) {
-    padding: 0 170px 0 100px;
-  }
-
   @media (max-width: $screen-md-max) {
     padding: 30px 60px;
     margin-top: 40px;

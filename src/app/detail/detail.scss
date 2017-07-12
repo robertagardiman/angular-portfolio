@@ -62,12 +62,17 @@ detail {
     background-color: rgba(255, 255, 255, 0.9);
     padding-bottom: 50px;
 
+    .detail__item--text {
+      margin: 20px;
+      h3 {
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
     img {
       width: 100%;
-    }
-
-    h3 {
-      margin-bottom: 0;
     }
   }
   .detail__nav {
