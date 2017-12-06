@@ -7,7 +7,7 @@ header {
   padding: 60px;
   display: grid;
   grid-template-columns: 10% 90%;
-  z-index: 1;
+  z-index: 2;
 
   @media (max-width: $screen-md-max) {
     padding: 20px 30px;
@@ -19,6 +19,7 @@ header {
   .logo {
     grid-column-start: 1;
     grid-column-end: 2;
+    width: 30px;
     &:hover {
       cursor: pointer;
     }
@@ -27,26 +28,43 @@ header {
     grid-column-start: 2;
     grid-column-end: last-line;
     text-align: right;
-    .nav__item {
-      display: inline-block;
-      margin-left: 15px;
-      text-align: center;
-      a {
-        font-weight: 500;
-        font-size: 18px;
-      }
+    .menu {
+      z-index: 5;
       img {
-        display: block;
-        margin: 5px auto 0;
-        opacity: 0;
-        transition: opacity .3s;
-        @media (max-width: $screen-sm-max) {
-          width: 70%;
+        width: 25px;
+        transition: all .3s ease;
+      }
+    }
+    .menu--extended {
+      position: absolute;
+      top: -100vh;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 60px;
+      padding-left: 120px;
+      background: $pink;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: center;
+      z-index: -1;
+      transition: all .3s ease;
+      .menu__item {
+        font-size: 180px;
+        font-weight: bold;
+        line-height: 170px;
+        letter-spacing: -5px;
+        a {
+          color: white;
         }
       }
-      &:hover img {
-        opacity: 1;
-      }
+    }
+    .open {
+      top: 0;
+    }
+    .rotate {
+      transform: rotate(45deg);
     }
     .selected img {
       opacity: 1;

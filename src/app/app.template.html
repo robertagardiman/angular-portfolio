@@ -1,19 +1,29 @@
-<header ng-class="{transparent: $ctrl.setActive('home')}" >
-  <img class="logo" ui-sref="Home" ng-src="/assets/logo.svg" alt="logo">
-  <div class="nav">
-    <div ng-class="{selected: $ctrl.setActive('projects')}" class="nav__item">
-      <a ui-sref="Projects">Projects</a>
-      <img ng-src="/assets/divider.svg" alt="">
+<header ng-class="{transparent: $ctrl.setActive('home')}">
+    <img class="logo" ui-sref="Home" ng-src="/assets/logo.svg" alt="logo">
+
+    <div class="nav">
+        <div class="menu" ng-click="$ctrl.toggleExtendedMenu()">
+            <img ng-src="/assets/menu.svg" alt="menu">
+        </div>
+        <div class="menu--extended">
+            <div ng-class="{selected: $ctrl.setActive('projects')}" class="menu__item">
+                <a ui-sref="Projects" ng-click="$ctrl.toggleExtendedMenu()">Projects</a>
+                <!--<img ng-src="/assets/divider.svg" alt="">-->
+            </div>
+            <div ng-class="{selected: $ctrl.setActive('about')}" class="menu__item">
+                <a ui-sref="About" ng-click="$ctrl.toggleExtendedMenu()">About</a>
+                <!--<img ng-src="/assets/divider.svg" alt="">-->
+            </div>
+        </div>
     </div>
-    <div ng-class="{selected: $ctrl.setActive('about')}" class="nav__item">
-      <a ui-sref="About">About</a>
-      <img ng-src="/assets/divider.svg" alt="">
-    </div>
-  </div>
 </header>
 
 <section ui-view autoscroll="true"></section>
 
-<a ng-class="{disappear: $ctrl.setActive('about')}" href="mailto:roberta.gardiman@gmail.com" class="contact-me"><img ng-src="/assets/contact.svg" alt=""></a>
+<a ng-class="{disappear: $ctrl.setActive('about')}" href="mailto:roberta.gardiman@gmail.com" class="contact-me">
+    <img ng-src="/assets/contact.svg" alt=""></a>
 
-<a ng-if="$ctrl.setActive('about')" class="btn--download" href="./../../assets/CV_Gardiman_Roberta.pdf" target="_blank">download cv</a>
+<a ng-if="$ctrl.setActive('about')" class="btn--download" href="./../../assets/CV_Gardiman_Roberta.pdf" target="_blank">
+    download cv
+    <span class="btn--download-icon">/</span>
+</a>

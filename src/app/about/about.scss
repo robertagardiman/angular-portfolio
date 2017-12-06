@@ -3,7 +3,7 @@ about {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 140px 0 70px;
+  padding: 50px 140px 0 70px;
   @media(max-width: $screen-sm-max) {
     margin-top: 30px;
     padding: 0;
@@ -15,7 +15,7 @@ about {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 74%;
+    width: 80%;
     height: 550px;
     z-index: -2;
     @media(max-width: $screen-md-max) {
@@ -30,9 +30,10 @@ about {
 
   article#about__container {
     position: relative;
-    top: 63vh;
-    padding-right: 100px;
-    padding-top: 30px;
+    top: 0;
+    left: -100%;
+    width: 45%;
+    background-color: white;
     z-index: 0;
     transition: all .5s ease;
 
@@ -42,22 +43,18 @@ about {
     }
 
       h1 {
-        font-size: 100px;
-        margin: 30px 0;
-        margin-left: -70px;
+        font-size: 80px;
+        margin: 0;
         @media(max-width: $screen-sm-max) {
           font-size: 60px;
-          margin-left: -15px;
         }
       }
 
       .about__content {
-        display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 100%;
-        grid-column-gap: 50px;
-        background-color: rgba(255, 255, 255, 0.8);
-        width: 110%;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        width: 90%;
         z-index: 1;
         @media(max-width: $screen-sm-max) {
           grid-template-columns: 100%;
@@ -66,10 +63,7 @@ about {
         }
 
       .about__item {
-        margin: 30px 0;
-        @media(max-width: $screen-md-max) {
-          margin: 30px 0 0;
-        }
+        margin: 0 0 30px;
         h3 {
           text-transform: uppercase;
           font-size: 14px;
@@ -78,7 +72,10 @@ about {
         }
         p {
           margin: 0;
-          font-size: 18px;
+          font-size: 16px;
+          a {
+            font-size: 16px;
+          }
         }
         .about__container--random {
           img {
@@ -91,11 +88,12 @@ about {
           padding: 0;
           display: flex;
           flex-flow: row wrap;
-          justify-content: space-between;
+          justify-content: flex-start;
           align-items: flex-start;
           li {
             position: relative;
-            margin: 10px 10px 10px 0;
+            margin: 0;
+            margin-right: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -207,7 +205,7 @@ about {
 
 /************ AFTER setTimeout THE CONTENT SLIDES UP *************/
 .go-up {
-  top: 16vh !important;
+  left: 0 !important;
   z-index: 0;
 }
 /************ END *************/
@@ -216,7 +214,7 @@ about {
   position: fixed;
   bottom: 60px;
   right: 60px;
-  padding: 13px 35px;
+  padding: 13px 85px 13px 30px;
   background-color: white;
   border: 2px solid $dark-grey;
   text-transform: uppercase;
@@ -228,9 +226,20 @@ about {
     bottom: 20px;
     right: 20px;
   }
-  &:hover {
-    border: 0;
-    color: white;
-    background-color: $pink;
+  .btn--download-icon {
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    border-left: 2px solid $dark-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+  }
+  &:hover .btn--download-icon{
+    background: $pink;
   }
 }

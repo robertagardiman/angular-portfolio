@@ -1,9 +1,5 @@
 <div class="about__img-container"></div>
 
-<!-- <div class="random-container">
-  <img ng-src="/assets/random-fake.png" alt="">
-</div> -->
-
 <article id="about__container">
   <h1>Roberta.</h1>
   <div class="about__content">
@@ -12,20 +8,15 @@
       <p>I'm a creative thinker specialised in Web and Digital Design, based in Milan. I've always been curious about design in all its shapes and I'm happy to work on my passion.</p>
     </div>
     <div class="about__item">
-      <h3>contact</h3>
-      <p>mail / <a href="mailto:roberta.gardiman@gmail.com">roberta.gardiman@gmail.com</a></p>
-      <p>phone / <a href="">+39 3463063216</a></p>
-    </div>
-    <div class="about__item">
       <h3>skills</h3>
       <ul class="about__skills">
         <li ng-repeat="skill in $ctrl.skills">
           <div class="about__skill__level">
-              <svg class="progress" width="60" height="60" viewBox="0 0 120 120">
-                  <circle class="progress__meter" cx="60" cy="60" r="54" stroke-width="4" />
-                  <circle class="progress__value" cx="60" cy="60" r="54" stroke-width="4" />
-              </svg>
-              <img src="{{ skill.icon }}" alt="">
+            <svg class="progress" width="60" height="60" viewBox="0 0 120 120">
+              <circle class="progress__meter" cx="60" cy="60" r="54" stroke-width="4" />
+              <circle class="progress__value" cx="60" cy="60" r="54" stroke-width="4" />
+            </svg>
+            <img src="{{ skill.icon }}" alt="">
           </div>
           <div class="about__skills--overlay">
             <p class="about__skill__name">{{ skill.name }}</p>
@@ -33,11 +24,9 @@
         </li>
       </ul>
     </div>
-
     <div class="about__item">
-      <div class="about__container--random">
-        <img ng-src="/assets/random-fake.png" alt="">
-      </div>
+      <h3>contact</h3>
+      <p>mail / <a href="mailto:roberta.gardiman@gmail.com">roberta.gardiman@gmail.com</a></p>
     </div>
   </div>
 

@@ -12,4 +12,9 @@ export default class AppController {
       return false;
     }
   }
+
+  toggleExtendedMenu() {
+    document.querySelector('.menu--extended').classList.toggle('open');
+    document.querySelector('.menu img').classList.toggle('rotate');
+  }
 }

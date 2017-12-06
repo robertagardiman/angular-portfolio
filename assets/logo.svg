@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="29px" height="35px" viewBox="0 0 29 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="41px" viewBox="0 0 34 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="logo" stroke="#444444">
-            <polygon id="Path-5" transform="translate(18.826463, 6.731298) rotate(-1.000000) translate(-18.826463, -6.731298) " points="14.5805651 0.73129829 20.9494121 12.7312983 23.0723611 2.73129829"></polygon>
-            <polygon id="Path-5" transform="translate(10.127430, 6.731283) scale(-1, 1) rotate(-1.000000) translate(-10.127430, -6.731283) " points="5.88243051 0.731282624 12.2499303 12.7312826 14.3724303 2.73128263"></polygon>
-            <polygon id="Path-6" points="8 34.2725511 21 34.2725511 28 25.5701438 21 13"></polygon>
-            <polyline id="Path-6" transform="translate(10.936187, 23.636276) scale(-1, 1) translate(-10.936187, -23.636276) " points="0.9361873 34.2725511 13.9361873 34.2725511 20.9361873 25.5701438 13.9361873 13 7.39544989 23.7029362"></polyline>
-            <path d="M8,13 L21,13" id="Path-7"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-20.000000, -16.000000)">
+            <rect id="Rectangle-2" x="0" y="0.579365079" width="73" height="71.8412698"></rect>
+            <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.016129, 16.222222)" stroke-width="1.7" stroke="#444444">
+                <polygon id="Path-5" transform="translate(21.166642, 7.799758) rotate(-1.000000) translate(-21.166642, -7.799758) " points="16.1674396 0.847377384 23.6662433 14.7521393 26.1658446 3.1648377"></polygon>
+                <polygon id="Path-5" transform="translate(10.924232, 7.799740) scale(-1, 1) rotate(-1.000000) translate(-10.924232, -7.799740) " points="5.9260874 0.84735923 13.4233049 14.7521211 15.9223774 3.16481955"></polygon>
+                <polygon id="Path-6" points="8.41935484 39.7126386 23.7258065 39.7126386 31.9677419 29.6288968 23.7258065 15.0634921"></polygon>
+                <polyline id="Path-6" transform="translate(11.876478, 27.388065) scale(-1, 1) translate(-11.876478, -27.388065) " points="0.1022846 39.7126386 15.4087362 39.7126386 23.6506717 29.6288968 15.4087362 15.0634921 7.7075454 27.465307"></polyline>
+                <path d="M8.41935484,15.0634921 L23.7258065,15.0634921" id="Path-7"></path>
+            </g>
         </g>
     </g>
 </svg>
