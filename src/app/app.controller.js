@@ -17,4 +17,9 @@ export default class AppController {
     document.querySelector('.menu--extended').classList.toggle('open');
     document.querySelector('.menu img').classList.toggle('rotate');
   }
+
+  closeMenu() {
+    document.querySelector('.menu--extended').classList.remove('open');
+    document.querySelector('.menu img').classList.remove('rotate');
+  }
 }
