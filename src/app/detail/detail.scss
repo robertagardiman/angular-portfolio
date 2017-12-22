@@ -16,7 +16,6 @@ detail {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-
     background-color: white;
     h1 {
       margin-bottom: 30px;
@@ -38,6 +37,7 @@ detail {
       text-align: center;
       @media (max-width: $screen-xs-max) {
         font-size: 14px;
+        width: 85%;
       }
     }
 

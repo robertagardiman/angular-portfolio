@@ -21,12 +21,11 @@ about {
     width: 80%;
     height: 550px;
     @media(max-width: $screen-md-max) {
-      width: 93vw;
-      height: 80vh;
+      position: relative;
+      width: 100%;
     }
-    @media(max-width: $screen-xs-max) {
-      width: 84vw;
-      height: 40vh;
+    @media(max-width: $screen-sm-max) {
+      background-position: 80%;
     }
   }
 
@@ -35,15 +34,16 @@ about {
     top: 0;
     left: -100%;
     width: 45%;
-    //padding: 20px;
     background-color: white;
-    //border: 2px solid $dark;
     z-index: 0;
     transition: all .5s ease;
-
+    @media(max-width: $screen-md-max) {
+      left: 0 !important;
+      z-index: 0;
+    }
     @media(max-width: $screen-sm-max) {
-      padding-right: 0;
-      top: 77vh;
+      top: 50px;
+      width: 100%;
     }
     h1 {
       font-size: 80px;
@@ -205,7 +205,7 @@ about {
 
 
 /************ AFTER setTimeout THE CONTENT SLIDES UP *************/
-.go-up {
+.in {
   left: 0 !important;
   z-index: 0;
 }

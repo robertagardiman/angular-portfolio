@@ -50,11 +50,18 @@ header {
       justify-content: center;
       z-index: -1;
       transition: all .3s ease;
+      @media (max-width: $screen-md-max) {
+        padding: 30px;
+      }
       .menu__item {
         font-size: 180px;
         font-weight: bold;
         line-height: 170px;
         letter-spacing: -5px;
+        @media (max-width: $screen-sm-max) {
+          font-size: 90px;
+          line-height: 80px;
+        }
         a {
           color: white;
         }

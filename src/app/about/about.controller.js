@@ -51,9 +51,11 @@ export default class AboutController{
   }
 
   $onInit(){
-    setTimeout(function(){
-      document.querySelector('#about__container').classList.add('go-up');
-    }, 1000);
+    if (window.screen.width > 768) {
+      setTimeout(function(){
+        document.querySelector('#about__container').classList.add('in');
+      }, 1000);
+    }
 
     setTimeout(this.setSkillsLevel.bind(this, this.skills), 0)
   }
