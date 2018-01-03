@@ -17,9 +17,10 @@
         "description_3":"Finally we implemented the SEO strategy and analytics, to optimise the website in Google's ranks.",
         "images": {
           "thumb": "./../../assets/luceplan/teaser-luceplan.jpg",
-          "cover": "./../../assets/cover-placeholder.png",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+          "cover": "./../../assets/luceplan/intro-luceplan.jpg",
+          "photo_1": "./../../assets/luceplan/home-luceplan.jpg",
+          "photo_2": "./../../assets/luceplan/products-luceplan.jpg",
+          "photo_3": "./../../assets/luceplan/luceplan-map.jpg"
         }
     },
     {
@@ -41,8 +42,11 @@
         "images": {
           "thumb": "./../../assets/osteria-francescana/teaser-osteria-francescana.jpg",
           "cover": "./../../assets/osteria-francescana/mockup-osteria.jpg",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+          "photo_1": "./../../assets/osteria-francescana/of-details.jpg"
+        },
+        "videos": {
+            "video_1": "./../../assets/osteria-francescana/osteria-francescana-intro.m4v",
+            "video_2": "./../../assets/osteria-francescana/Osteria-Francescana-ipad.m4v"
         }
     },
     {
@@ -62,10 +66,15 @@
         "description_2":"The third section focuses on the events that IOP selects (in different cities) and than proposes to users based on the mood they selected at the beginning. This section has the power to create a net of contacts and real interactions between people of IOP, inviting them to live some experience where they have the possibility to try for real Samsung products and, building a solid relation with the brand, be invited to fill the Pure and Product sections with the experiences that the Event section proposes.",
         "description_3":"",
         "images": {
-          "thumb": "./../../assets/iop/teaser-iop.jpg",
-          "cover": "./../../assets/cover-placeholder.png",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+            "thumb": "./../../assets/iop/teaser-iop.jpg",
+            "cover": "./../../assets/iop/iop-selection.jpg",
+            "photo_1": "./../../assets/iop/iop-first-mockup(small).jpg",
+            "photo_2": "./../../assets/iop/iop-pure-emotions-mockup.jpg",
+            "photo_3": "./../../assets/iop/iop-samsung-post.jpg",
+            "photo_4": "./../../assets/iop/iop-3-screens.jpg"
+        },
+        "videos": {
+            "video_1": "./../../assets/iop/IOP-video(small).m4v"
         }
     },
     {
@@ -84,9 +93,12 @@
         "description_3":"",
         "images": {
           "thumb": "./../../assets/nike/teaser-nike.jpg",
-          "cover": "./../../assets/cover-placeholder.png",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+          "cover": "./../../assets/nike/nike-marathon.jpg",
+          "photo_1": "./../../assets/nike/nike-manifesto.png",
+          "photo_2": "./../../assets/nike/first-step-nike-cut.jpg"
+        },
+        "videos": {
+            "video_1": "./../../assets/nike/nike.m4v"
         }
     },
     {
@@ -104,10 +116,13 @@
         "description_2":"The SEM strategy focused on increase sales by bringing more people to the site, with special attention to customized products. The aim is to create appealing campaigns that could engage our target.",
         "description_3":"In order to push the customized glasses sales we are planning to create a techinicolor week. Every day of the week will have a specific color promoted, the user should add that color in his customized product in order to get the discount on the final result. This campaign can be used for the holiday season but can be also adapted in order to set “RayBan culture” in a period of the year.",
         "images": {
-          "thumb": "./../../assets/rayban/teaser-rayban.jpg",
-          "cover": "./../../assets/cover-placeholder.png",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+            "thumb": "./../../assets/rayban/teaser-rayban.jpg",
+            "cover": "./../../assets/rayban/ray-ban-ambient.jpg",
+            "photo_1": "./../../assets/rayban/rayban-ambient-cropped.jpg",
+            "photo_2": "./../../assets/rayban/ray-ban-mobile.jpg",
+            "photo_3": "./../../assets/rayban/campaign-rayban.jpg",
+            "photo_4": "./../../assets/rayban/seo.jpg",
+            "gif": "./../../assets/rayban/gif1.gif"
         }
     },
     {
@@ -126,9 +141,11 @@
         "description_3":"After the first purchase the customers would be given the “Key” of the shop, That would help recognise them all over the world as they enter the boutiques and treat them with the same importance.",
         "images": {
           "thumb": "./../../assets/veneta/teaser-veneta1.jpg",
-          "cover": "./../../assets/cover-placeholder.png",
-          "photo_1": "./../../assets/photo-1.png",
-          "photo_2": "./../../assets/photo-2.png"
+          "cover": "./../../assets/veneta/intro-bottega.jpg",
+          "photo_1": "./../../assets/veneta/bottega-mobile.jpg",
+          "photo_2": "./../../assets/veneta/bottega-mockup-1.jpg",
+          "photo_3": "./../../assets/veneta/chat.png",
+          "photo_4": "./../../assets/veneta/bottega-styles.jpg"
         }
     }
 ]

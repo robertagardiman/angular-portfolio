@@ -9,26 +9,31 @@
 </article>
 
 <article class="detail__content">
-  <img ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
+  <img ng-if="$ctrl.item.slug != 'nike-for-rio'" ng-src="{{ $ctrl.item.images.cover }}" alt="cover image">
+  <video ng-if="$ctrl.item.slug == 'samsung'" src="{{ $ctrl.item.videos.video_1 }}" controls poster="{{ $ctrl.item.images.cover }}"></video>
+  <video ng-if="$ctrl.item.slug == 'nike-for-rio'" src="{{ $ctrl.item.videos.video_1 }}" controls poster="{{ $ctrl.item.images.cover }}"></video>
   <div class="detail__item--text">
     <h3>{{ $ctrl.item.concept }}</h3>
     <p>{{ $ctrl.item.concept_description }}</p>
   </div>
-  <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
-  <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+  <video ng-if="$ctrl.item.slug == 'osteria-francescana'" src="{{ $ctrl.item.videos.video_1 }}" controls poster="{{ $ctrl.item.images.thumb }}"></video>
+  <img ng-src="{{ $ctrl.item.images.photo_1 }}" ng-class="{ autoWidth: $ctrl.item.slug == 'nike-for-rio' }" alt="">
+  <img ng-if="$ctrl.item.slug != 'osteria-francescana'" ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
   <div class="detail__item--text">
     <p>{{ $ctrl.item.description }}</p>
   </div>
-  <img ng-src="{{ $ctrl.item.images.photo_1 }}" alt="">
-  <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+  <video ng-if="$ctrl.item.slug == 'osteria-francescana'" src="{{ $ctrl.item.videos.video_2 }}" controls poster="{{ $ctrl.item.images.thumb }}"></video>
+  <img ng-src="{{ $ctrl.item.images.photo_3 }}" alt="">
+  <!--<img ng-src="{{ $ctrl.item.images.photo_3 }}" alt="">-->
   <div class="detail__item--text">
-    <p>{{ $ctrl.item.description_1 }}</p>
+    <!--<p>{{ $ctrl.item.description_1 }}</p>-->
     <p>{{ $ctrl.item.description_2 }}</p>
   </div>
-  <img ng-src="{{ $ctrl.item.images.photo_2 }}" alt="">
+  <img ng-src="{{ $ctrl.item.images.photo_4 }}" alt="">
   <div class="detail__item--text">
     <p>{{ $ctrl.item.description_3 }}</p>
   </div>
+  <img ng-src="{{ $ctrl.item.images.gif }}" alt="" class="gif">
 </article>
 
 <article class="detail__nav">

@@ -2,7 +2,7 @@
 
 detail {
   display: block;
-  padding: 0 140px 0 70px;
+  padding: 0 70px;
   @media (max-width: $screen-md-max) {
     padding: 0;
   }
@@ -63,7 +63,8 @@ detail {
     padding-bottom: 50px;
 
     .detail__item--text {
-      margin: 20px;
+      margin: 30px auto;
+      width: 70%;
       h3 {
         margin-bottom: 0;
         text-transform: uppercase;
@@ -73,6 +74,24 @@ detail {
     }
     img {
       width: 100%;
+    }
+    .autoWidth, .gif {
+      display: block;
+      margin: auto;
+      width: 50%;
+      @media (max-width: $screen-xs-max) {
+        width: 90%;
+        margin: 30px auto;
+      }
+    }
+    video {
+      display: block;
+      width: 100%;
+      margin: 50px auto;
+      @media (max-width: $screen-xs-max) {
+        width: 85%;
+        margin: 30px auto;
+      }
     }
   }
   .detail__nav {
