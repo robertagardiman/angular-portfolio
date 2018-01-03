@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7fe0de3e-706f-4a0e-a940-7d0d7f819c34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/detail/detail.scss" afterPath="$PROJECT_DIR$/src/app/detail/detail.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/detail/detail.template.html" afterPath="$PROJECT_DIR$/src/app/detail/detail.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/projects/projects.data.json" afterPath="$PROJECT_DIR$/src/app/projects/projects.data.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.data.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/projects/projects.data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="174">
+              <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.template.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detail.template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/detail/detail.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="181">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -83,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/app/about/about.template.html" />
         <option value="$PROJECT_DIR$/src/app/variables.scss" />
         <option value="$PROJECT_DIR$/src/app/detail/detail.scss" />
-        <option value="$PROJECT_DIR$/src/app/detail/detail.template.html" />
         <option value="$PROJECT_DIR$/src/app/projects/projects.data.json" />
+        <option value="$PROJECT_DIR$/src/app/detail/detail.template.html" />
       </list>
     </option>
   </component>
@@ -227,12 +225,12 @@
       <workItem from="1513585753607" duration="6009000" />
       <workItem from="1513941320613" duration="2822000" />
       <workItem from="1514881172115" duration="1759000" />
-      <workItem from="1514971070690" duration="8345000" />
+      <workItem from="1514971070690" duration="8736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26910000" />
+    <option name="totallyTimeSpent" value="27301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="848" extended-state="6" />
@@ -554,18 +552,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/detail/detail.template.html">
+    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="174">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.data.json">
+    <entry file="file://$PROJECT_DIR$/src/app/detail/detail.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="181">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding />
         </state>
       </provider>
