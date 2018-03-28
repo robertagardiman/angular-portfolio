@@ -1,6 +1,29 @@
 [
     {
         "id": 1,
+        "slug": "oty-website",
+        "title": "Otylight Website",
+        "place": "Qwentes Srl",
+        "year": 2016,
+        "subject": "Ux Design/Development",
+        "subtitle": " UX Design, SEO and Front-End Development of Otylight.com website",
+        "link": "https://www.otylight.com",
+        "link_name": "www.otylight.com",
+        "concept": "Concept",
+        "concept_description": "Otylight request was to redesign the brand's official website with a new and technological look and feel.",
+        "description": "The peculiarity of this project was the product configurator, a tool developed by Qwentes team to make the user configure the lamp he needs and after produce a pdf with all the selected specs.",
+        "description_1":"The project started from the creation of the configurator UX functionality and admin panel. After the configurator settings it the organisation of the contents started, building the real website structure. From this point we developed the final UX and code.",
+        "description_2":"We implemented a brand new Wordpress template to build the graphics and we embedded Qwentes Configurator inside Wordpress CMS.",
+        "description_3":"Finally we implemented the SEO strategy and analytics, to optimise the website in Google's ranks.",
+        "images": {
+            "thumb": "./../../assets/oty/teaser-oty.jpg",
+            "cover": "./../../assets/oty/oty-home.jpeg",
+            "photo_1": "./../../assets/oty/oty-products.jpeg",
+            "photo_2": "./../../assets/oty/oty-configurator.jpeg"
+        }
+    },
+    {
+        "id": 1,
         "slug": "luceplan-website",
         "title": "Luceplan Website",
         "place": "Qwentes Srl",
@@ -47,34 +70,6 @@
         "videos": {
             "video_1": "./../../assets/osteria-francescana/osteria-francescana-intro.m4v",
             "video_2": "./../../assets/osteria-francescana/Osteria-Francescana-ipad.m4v"
-        }
-    },
-    {
-        "id": 3,
-        "slug": "samsung",
-        "title": "Samsung Iop",
-        "place": "SPD Milano",
-        "year": 2016,
-        "subject": "Service Design",
-        "subtitle": "Digital experience for Samsung. The brand's goal was to create and design a more personal relationship between Samsung and its customers.",
-        "link": "",
-        "link-name": "",
-        "concept": "Concept",
-        "concept_description": "After a deep analysis of the brand the concept I arrived is Internet Of People (IOP), an APP sponsored by Samsung. IOP means a way to create a community of users sharing their personal experiences and their emotions while interacting with Samsung.",
-        "description": "After the Login the device becomes a personal filter to navigate Samsung universe, for this reason the user is invited to daily select his personal feeling between five emotional moods that will influence the way contents are displayed in the app. At this point the user is part of a community that, in the first section, shares the pure emotions related to experiences and events promoted by Samsung IOP staff.",
-        "description_1":"The core section of IOP App focuses on the experiences and reactions that users have while using Samsung products in their everyday life. These are a new and effective kind of reviews that give a clear feedback about products in a more personal way using also photos and videos and overcoming the banal description of the specs that people can find everywhere. As the user approach the store, a beacon triggers IOP app to open camera and, with augmented reality, let him see the every product in the color of the selected mood. At this moment, the customer can point a specific product and feel all the related experiences of the Products section of IOP App about it.",
-        "description_2":"The third section focuses on the events that IOP selects (in different cities) and than proposes to users based on the mood they selected at the beginning. This section has the power to create a net of contacts and real interactions between people of IOP, inviting them to live some experience where they have the possibility to try for real Samsung products and, building a solid relation with the brand, be invited to fill the Pure and Product sections with the experiences that the Event section proposes.",
-        "description_3":"",
-        "images": {
-            "thumb": "./../../assets/iop/teaser-iop.jpg",
-            "cover": "./../../assets/iop/iop-selection.jpg",
-            "photo_1": "./../../assets/iop/iop-first-mockup(small).jpg",
-            "photo_2": "./../../assets/iop/iop-pure-emotions-mockup.jpg",
-            "photo_3": "./../../assets/iop/iop-samsung-post.jpg",
-            "photo_4": "./../../assets/iop/iop-3-screens.jpg"
-        },
-        "videos": {
-            "video_1": "./../../assets/iop/IOP-video(small).m4v"
         }
     },
     {
